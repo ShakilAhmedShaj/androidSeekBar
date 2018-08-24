@@ -32,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
 
-                Toast.makeText(MainActivity.this, "onStartTrackingTouch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Start Tracking Touch", Toast.LENGTH_SHORT).show();
 
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
 
-                Toast.makeText(MainActivity.this, "onStartTrackingTouch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Stop Tracking Touch", Toast.LENGTH_SHORT).show();
 
             }
         });
